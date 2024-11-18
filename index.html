@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>Skibidictionary</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">Skibidictionary</div>
+    </nav>
+
+    <div class="main-layout">
+      <div class="container">
+        <div id="preloader" class="preloader">
+          <div class="spinner"></div>
+        </div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Type the word here.." id="inp-word" />
+          <button type="submit" id="search-btn">
+            <span class="search-text">Search</span>
+          </button>
+        </div>
+        <div class="result" id="result"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        &copy; 2024
+        <a href="https://deil-site.vercel.app/" target="_blank"
+          >De Ilham Fachrezi</a
+        >
+        . All rights reserved.
+      </p>
+    </footer>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
